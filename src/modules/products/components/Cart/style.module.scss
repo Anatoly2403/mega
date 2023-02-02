@@ -1,0 +1,19 @@
+.cart {
+  padding: 8px 23px;
+  display: flex;
+  gap: 13px;
+  background-color: var(--c-gray);
+  color: var(--c-white);
+  border-radius: 30px;
+
+  &__divider {
+    height: 16px;  
+    border-left: 1px solid var(--c-white-25);
+  }
+
+  &__items {
+    display: flex; 
+    align-items: center;
+    gap: 8px;
+  }
+} 

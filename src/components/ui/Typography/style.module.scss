@@ -1,0 +1,17 @@
+@import 'src/styles/mixins.scss';
+
+.text {
+  @include text;
+}
+
+.textBold {
+  @include text-bold;
+}
+
+.title {
+  @include title;
+}
+
+.contentTitle {
+  @include content-title;
+}

@@ -1,0 +1,34 @@
+@import 'src/assets/fonts/aBeeZee';
+@import 'src/assets/fonts/inter';
+
+@mixin text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  font-style: normal;
+}
+
+@mixin text-bold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  font-style: normal;
+}
+
+@mixin title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+} 
+
+@mixin content-title  {
+  font-family: 'ABeeZee', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+} 
